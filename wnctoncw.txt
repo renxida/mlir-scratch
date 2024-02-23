@@ -1,0 +1,32 @@
+Value selfWnc = op.getSelf();
+Value selfNwc = rewriter.create<AtenTransposeIntOp>(
+  op.getLoc(), selfWnc.getType(), selfWnc,
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(0)),
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(1)));
+Value selfNcw = rewriter.create<AtenTransposeIntOp>(
+  op.getLoc(), selfWnc.getType(), selfNwc,
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(1)),
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(2)));
+
+Value weightWcf = op.getWeight();
+Value weightFcw = rewriter.create<AtenTransposeIntOp>(
+  op.getLoc(), weightWcf.getType(), weightWcf,
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(1)),
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(2)));
+
+
+Value outputNcw = rewriter.create<AtenConvolutionOp>(
+    op.getLoc(), op->getResultTypes(), selfNcw, weightFcw, op.getBias(), stride,
+    /*padding*/ padding, /*dilation*/ emptyList,
+    /*transpose*/ cstFalse, /*output_padding*/ emptyList,
+    groups); 
+// todo: fix resultTypes
+Value outputNwc = rewriter.create<AtenTransposeIntOp>(
+  op.getLoc(), outputNcw.getType(), outputNcw,
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(1)),
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(2)));
+
+Value outputWnc = rewriter.replaceOpWithNewOp<AtenTransposeIntOp>(
+  op, op->getResultTypes(), outputNwc,
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(0)),
+  rewriter.create<Torch::ConstantIntOp>(op.getLoc(), rewriter.getI64IntegerAttr(1)));

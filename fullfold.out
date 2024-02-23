@@ -1,0 +1,782 @@
+./build/bin/torch-mlir-opt: /home/azureuser/miniconda/lib/libtinfo.so.6: no version information available (required by ./build/bin/torch-mlir-opt)
+Args: ./build/bin/torch-mlir-opt -pass-pipeline=builtin.module(torch-backend-to-linalg-on-tensors-backend-pipeline) scratch/fullfold.mlir --debug 
+Load new dialect in Context builtin
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ShapedType)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::MemRefLayoutAttrInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::TypedAttr)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ElementsAttr)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DistinctAttr)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::BytecodeOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::SymbolOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpAsmOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::RegionKindInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ConditionallySpeculatable)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::MemoryEffectOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ResourceBlobManagerDialectInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpAsmDialectInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::BytecodeDialectInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::AffineBinaryOpExprStorage)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::AffineConstantExprStorage)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::AffineDimExprStorage)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::AffineMapStorage)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::IntegerSetStorage)
+Load new dialect in Context builtin
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ZeroOperands<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneRegion<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ZeroResults<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ZeroSuccessors<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::NoRegionArguments<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::NoTerminator<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::SingleBlock<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OpInvariants<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::BytecodeOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::AffineScope<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::IsIsolatedFromAbove<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::SymbolTable<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::SymbolOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpAsmOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::RegionKindInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::HasOnlyGraphRegion<Empty>)
+Load new dialect in Context func
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::CallOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::SymbolUserOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::CallableOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::FunctionOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::RegionBranchTerminatorOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DialectInlinerInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ConvertToLLVMPatternInterface)
+Load new dialect in Context cf
+Load new dialect in Context arith
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::arith::ArithFastMathInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::VectorUnrollOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::InferTypeOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::InferIntRangeInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::arith::ArithIntegerOverflowFlagsInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::CastOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::BranchOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::AutomaticAllocationScope<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::CallableOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::FunctionOpInterface::Trait<Empty>)
+Load new dialect in Context torch
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::RegionBranchOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ZeroRegions<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneResult<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::torch::Torch::IntType>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ConstantLike<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ConditionallySpeculatable::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::AlwaysSpeculatableImplTrait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::MemoryEffectOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::OpTrait::AllowedInModuleInitializer<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::InferTypeOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::torch::Torch::NoneType>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::torch::Torch::ListType>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::VariadicOperands<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::OpTrait::AllowsTypeRefinement<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::Type>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::NOperands<6>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::OpTrait::HasValueSemantics<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::OpTrait::ReadOnly<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneOperand<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::HasParent<mlir::func::FuncOp>::Impl<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::MemRefsNormalizable<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::RegionBranchTerminatorOpInterface::Trait<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::ReturnLike<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::IsTerminator<Empty>)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::OpToOpPassAdaptor)
+Load new dialect in Context affine
+Load new dialect in Context ub
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ub::PoisonAttrInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::affine::AffineDmaStartOp)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::affine::AffineMapAccessInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::affine::AffineDmaWaitOp)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::LoopLikeOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::affine::AffineReadOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::affine::AffineWriteOpInterface)
+Load new dialect in Context complex
+Load new dialect in Context linalg
+Load new dialect in Context math
+Load new dialect in Context memref
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::CopyOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::PromotableMemOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DestructurableAccessorOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::PromotableAllocationOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DestructurableAllocationOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ViewLikeOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ShapedDimOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OffsetSizeAndStrideOpInterface)
+Load new dialect in Context tensor
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ReifyRankedShapedTypeOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DestinationStyleOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::linalg::AggregatedOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::TilingInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::linalg::LinalgOp)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::linalg::ContractionOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::linalg::ConvolutionOpInterface)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::linalg::FillOpInterface)
+Load new dialect in Context ml_program
+Load new dialect in Context scf
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ParallelCombiningOpInterface)
+Load new dialect in Context tm_tensor
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::TMTensor::TMTensorOp)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::TMTensor::ScalarLoopOpInterface)
+Load new dialect in Context torch_c
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DialectFoldInterface)
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%6) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.aten.item'(0x55c988349fa0) {
+  %6 = "torch.aten.item"(%5) : (!torch.vtensor<[1],si32>) -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.aten.full'(0x55c988349e10) {
+  %5 = "torch.aten.full"(%4, %1, %2, %3, %3, %3) : (!torch.list<int>, !torch.int, !torch.int, !torch.none, !torch.none, !torch.none) -> !torch.vtensor<[1],si32>
+
+} -> success : operation was folded
+//===-------------------------------------------===//
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::detail::ValueTensorLiteralOpGenericAdaptorBase::Properties)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::torch::Torch::ValueTensorType>::Impl<Empty>)
+** Insert  : 'torch.vtensor.literal'(0x55c9883b6400)
+** Replace : 'torch.aten.full'(0x55c988349e10)
+** Modified: 'torch.aten.item'(0x55c988349fa0)
+** Erase   : 'torch.aten.full'(0x55c988349e10)
+// *** IR Dump After Successful Folding ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> !torch.int {
+  %int1 = torch.constant.int 1
+  %int3 = torch.constant.int 3
+  %int5 = torch.constant.int 5
+  %none = torch.constant.none
+  %0 = torch.prim.ListConstruct %int1 : (!torch.int) -> !torch.list<int>
+  %1 = torch.vtensor.literal(dense<3> : tensor<1xsi32>) : !torch.vtensor<[1],si32>
+  %2 = torch.aten.item %1 : !torch.vtensor<[1],si32> -> !torch.int
+  return %2 : !torch.int
+}
+
+
+
+//===-------------------------------------------===//
+Processing operation : 'torch.aten.item'(0x55c988349fa0) {
+  %6 = "torch.aten.item"(%5) : (!torch.vtensor<[1],si32>) -> !torch.int
+
+} -> success : operation was folded
+//===-------------------------------------------===//
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::torch::Torch::detail::ConstantIntOpGenericAdaptorBase::Properties)
+** Insert  : 'torch.constant.int'(0x55c9883b75d0)
+** Replace : 'torch.aten.item'(0x55c988349fa0)
+** Modified: 'func.return'(0x55c98834a500)
+** Erase   : 'torch.aten.item'(0x55c988349fa0)
+// *** IR Dump After Successful Folding ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> !torch.int {
+  %int1 = torch.constant.int 1
+  %int3 = torch.constant.int 3
+  %int5 = torch.constant.int 5
+  %none = torch.constant.none
+  %0 = torch.prim.ListConstruct %int1 : (!torch.int) -> !torch.list<int>
+  %1 = torch.vtensor.literal(dense<3> : tensor<1xsi32>) : !torch.vtensor<[1],si32>
+  %int3_0 = torch.constant.int 3
+  return %int3_0 : !torch.int
+}
+
+
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%6) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %6 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.vtensor.literal'(0x55c9883b6400) {
+  %5 = "torch.vtensor.literal"() <{value = dense<3> : tensor<1xsi32>}> : () -> !torch.vtensor<[1],si32>
+
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::HasRecursiveMemoryEffects<Empty>)
+  ** Erase   : 'torch.vtensor.literal'(0x55c9883b6400)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.prim.ListConstruct'(0x55c988349760) {
+  %4 = "torch.prim.ListConstruct"(%0) : (!torch.int) -> !torch.list<int>
+
+  ** Erase   : 'torch.prim.ListConstruct'(0x55c988349760)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.none'(0x55c9883353f0) {
+  %3 = "torch.constant.none"() : () -> !torch.none
+
+  ** Erase   : 'torch.constant.none'(0x55c9883353f0)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c988334eb0) {
+  %2 = "torch.constant.int"() <{value = 5 : i64}> : () -> !torch.int
+
+  ** Erase   : 'torch.constant.int'(0x55c988334eb0)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c988334d80) {
+  %1 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+  ** Erase   : 'torch.constant.int'(0x55c988334d80)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c988333a10) {
+  %0 = "torch.constant.int"() <{value = 1 : i64}> : () -> !torch.int
+
+  ** Erase   : 'torch.constant.int'(0x55c988333a10)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::detail::PreservedAnalyses::AllAnalysesType)
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+  * Fold {
+  } -> FAILURE : unable to fold
+
+  * Pattern : 'torch.constant.int -> ()' {
+Trying to match "(anonymous namespace)::ConvertAtenScalarToTensorLike"
+    ** Failure : not a supported Scalar to Tensor like op
+"(anonymous namespace)::ConvertAtenScalarToTensorLike" result 0
+  } -> FAILURE : pattern failed to match
+
+  * Pattern : 'torch.constant.int -> ()' {
+Trying to match "(anonymous namespace)::ConvertElementwiseOp"
+    ** Failure : not a supported elementwise op
+"(anonymous namespace)::ConvertElementwiseOp" result 0
+  } -> FAILURE : pattern failed to match
+
+  * Pattern : 'torch.constant.int -> ()' {
+Trying to match "(anonymous namespace)::ConvertReductionOp"
+    ** Failure : not a supported reduce op
+"(anonymous namespace)::ConvertReductionOp" result 0
+  } -> FAILURE : pattern failed to match
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch.constant.int'(0x55c9883b75d0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+  * Fold {
+  } -> FAILURE : unable to fold
+
+  * Pattern : 'torch.constant.int -> ()' {
+Trying to match "(anonymous namespace)::ConvertTorchConstantIntOp"
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::arith::detail::ConstantOpGenericAdaptorBase::Properties)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::InferIntRangeInterface::Trait<Empty>)
+    ** Insert  : 'arith.constant'(0x55c9883b15b0)
+    ** Replace : 'torch.constant.int'(0x55c9883b75d0)
+"(anonymous namespace)::ConvertTorchConstantIntOp" result 1
+
+    //===-------------------------------------------===//
+    Legalizing operation : 'arith.constant'(0x55c9883b15b0) {
+      %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+    } -> SUCCESS : operation marked legal by the target
+    //===-------------------------------------------===//
+  } -> SUCCESS : pattern applied successfully
+// *** IR Dump After Pattern Application ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> !torch.int {
+  %c3_i64 = arith.constant 3 : i64
+  %int3 = torch.constant.int 3
+  return %int3 : !torch.int
+}
+
+
+} -> SUCCESS
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%1) : (!torch.int) -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+** Insert  : 'torch_c.from_i64'(0x55c988349760)
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'arith.constant'(0x55c9883b15b0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch_c.from_i64'(0x55c988349760) {
+  %1 = "torch_c.from_i64"(%0) : (i64) -> !torch.int
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%1) : (!torch.int) -> ()
+
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::ml_program::detail::GlobalOpGenericAdaptorBase::Properties)
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'arith.constant'(0x55c9883b15b0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch_c.from_i64'(0x55c988349760) {
+  %1 = "torch_c.from_i64"(%0) : (i64) -> !torch.int
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%1) : (!torch.int) -> ()
+
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'arith.constant'(0x55c9883b15b0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch_c.from_i64'(0x55c988349760) {
+  %1 = "torch_c.from_i64"(%0) : (i64) -> !torch.int
+
+  * Fold {
+    ** Insert  : 'torch.constant.int'(0x55c9883cb1f0)
+    ** Replace : 'torch_c.from_i64'(0x55c988349760)
+
+    //===-------------------------------------------===//
+    Legalizing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+      %1 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+      * Fold {
+      } -> FAILURE : unable to fold
+    } -> FAILURE : no matched legalization pattern
+    //===-------------------------------------------===//
+  } -> FAILURE : failed to legalize generated constant 'torch.constant.int'
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%1) : (!torch.int) -> ()
+
+  * Fold {
+  } -> FAILURE : unable to fold
+} -> FAILURE : no matched legalization pattern
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'arith.constant'(0x55c9883b15b0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch_c.from_i64'(0x55c988349760) {
+  %1 = "torch_c.from_i64"(%0) : (i64) -> !torch.int
+
+} -> success : operation was folded
+//===-------------------------------------------===//
+** Insert  : 'torch.constant.int'(0x55c9883cb1f0)
+** Replace : 'torch_c.from_i64'(0x55c988349760)
+** Modified: 'func.return'(0x55c98834a500)
+** Erase   : 'torch_c.from_i64'(0x55c988349760)
+// *** IR Dump After Successful Folding ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> !torch.int {
+  %c3_i64 = arith.constant 3 : i64
+  %int3 = torch.constant.int 3
+  return %int3 : !torch.int
+}
+
+
+
+//===-------------------------------------------===//
+Processing operation : 'arith.constant'(0x55c9883b15b0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+  ** Erase   : 'arith.constant'(0x55c9883b15b0)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::DominanceInfo)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::IsCommutative<Empty>)
+
+//===-------------------------------------------===//
+Legalizing operation : 'builtin.module'(0x55c9882f8100) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'ml_program.global'(0x55c9883b0f20) {
+  "ml_program.global"() <{is_mutable, sym_name = "global_seed", sym_visibility = "private", type = tensor<i64>, value = dense<0> : tensor<i64>}> : () -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+  * Fold {
+  } -> FAILURE : unable to fold
+
+  * Pattern : 'func.func -> ()' {
+Trying to match "(anonymous namespace)::FunctionOpInterfaceSignatureConversion"
+"(anonymous namespace)::FunctionOpInterfaceSignatureConversion" result 1
+
+    //===-------------------------------------------===//
+    Legalizing operation : 'func.func'(0x55c98834a990) {
+    } -> SUCCESS : operation marked legal by the target
+    //===-------------------------------------------===//
+  } -> SUCCESS : pattern applied successfully
+// *** IR Dump After Pattern Application ***
+mlir-asm-printer: Verifying operation: builtin.module
+type of return operand 0 ('!torch.int') doesn't match function result type ('i64') in function @torch.aten.full_item
+mlir-asm-printer: 'builtin.module' failed to verify and will be printed in generic form
+"builtin.module"() ({
+  "ml_program.global"() <{is_mutable, sym_name = "global_seed", sym_visibility = "private", type = tensor<i64>, value = dense<0> : tensor<i64>}> : () -> ()
+  "func.func"() <{function_type = () -> i64, sym_name = "torch.aten.full_item"}> ({
+    %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+    "func.return"(%0) : (!torch.int) -> ()
+  }) : () -> ()
+}) : () -> ()
+
+
+} -> SUCCESS
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (!torch.int) -> ()
+
+  * Fold {
+  } -> FAILURE : unable to fold
+
+  * Pattern : 'func.return -> ()' {
+Trying to match "(anonymous namespace)::ReturnOpTypeConversion"
+"(anonymous namespace)::ReturnOpTypeConversion" result 1
+
+    //===-------------------------------------------===//
+    Legalizing operation : 'func.return'(0x55c98834a500) {
+      "func.return"(%1) : (i64) -> ()
+
+    } -> SUCCESS : operation marked legal by the target
+    //===-------------------------------------------===//
+  } -> SUCCESS : pattern applied successfully
+// *** IR Dump After Pattern Application ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> i64 {
+  %int3 = torch.constant.int 3
+  %0 = builtin.unrealized_conversion_cast %int3 : !torch.int to i64
+  return %0 : i64
+}
+
+
+} -> SUCCESS
+//===-------------------------------------------===//
+** Insert  : 'torch_c.to_i64'(0x55c988349fa0)
+ImplicitTypeIDRegistry::lookupOrInsert(mlir::OpTrait::OneTypedResult<mlir::IntegerType>::Impl<Empty>)
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'torch_c.to_i64'(0x55c988349fa0) {
+  %1 = "torch_c.to_i64"(%0) : (!torch.int) -> i64
+
+} -> success : operation was folded
+//===-------------------------------------------===//
+** Insert  : 'arith.constant'(0x55c9883b0de0)
+** Replace : 'torch_c.to_i64'(0x55c988349fa0)
+** Modified: 'func.return'(0x55c98834a500)
+** Erase   : 'torch_c.to_i64'(0x55c988349fa0)
+// *** IR Dump After Successful Folding ***
+mlir-asm-printer: Verifying operation: func.func
+func.func @torch.aten.full_item() -> i64 {
+  %int3 = torch.constant.int 3
+  %c3_i64 = arith.constant 3 : i64
+  return %c3_i64 : i64
+}
+
+
+
+//===-------------------------------------------===//
+Processing operation : 'torch.constant.int'(0x55c9883cb1f0) {
+  %0 = "torch.constant.int"() <{value = 3 : i64}> : () -> !torch.int
+
+  ** Erase   : 'torch.constant.int'(0x55c9883cb1f0)
+} -> success : operation is trivially dead
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'arith.constant'(0x55c9883b0de0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (i64) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'arith.constant'(0x55c9883b0de0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Processing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (i64) -> ()
+
+} -> failure : pattern failed to match
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'arith.constant'(0x55c9883b0de0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (i64) -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'builtin.module'(0x55c9882f8100) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'ml_program.global'(0x55c9883b0f20) {
+  "ml_program.global"() <{is_mutable, sym_name = "global_seed", sym_visibility = "private", type = tensor<i64>, value = dense<0> : tensor<i64>}> : () -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.func'(0x55c98834a990) {
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'arith.constant'(0x55c9883b0de0) {
+  %0 = "arith.constant"() <{value = 3 : i64}> : () -> i64
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+
+//===-------------------------------------------===//
+Legalizing operation : 'func.return'(0x55c98834a500) {
+  "func.return"(%0) : (i64) -> ()
+
+} -> SUCCESS : operation marked legal by the target
+//===-------------------------------------------===//
+mlir-asm-printer: Verifying operation: builtin.module
+module {
+  ml_program.global private mutable @global_seed(dense<0> : tensor<i64>) : tensor<i64>
+  func.func @torch.aten.full_item() -> i64 {
+    %c3_i64 = arith.constant 3 : i64
+    return %c3_i64 : i64
+  }
+}
+
